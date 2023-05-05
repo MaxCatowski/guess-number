@@ -1,0 +1,30 @@
+/* rem and em do NOT depend on html font-size in media queries 
+instead, 1rem=1em=16px*/
+@media (max-width: 40em) {
+  html {
+    font-size: 50%;
+  }
+  .guess {
+    margin-bottom: 8rem;
+  }
+  .message {
+    margin-bottom: 15rem;
+  }
+  .right {
+    font-size: 1.3rem;
+  }
+  .btn {
+    font-size: 1.6rem;
+  }
+  .guess {
+    font-size: 4rem;
+    width: 16rem;
+  }
+  .again {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .check {
+    font-size: 1.2rem;
+  }
+}
